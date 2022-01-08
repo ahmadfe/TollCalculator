@@ -1,0 +1,4 @@
+1. varibale yyy-mm-ddd
+2. jämföra tide med gammla tide yyyy-mm-ddd
+3-loop för datum och jämföra 
+4 total fee 
