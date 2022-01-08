@@ -1,5 +1,4 @@
 package VehicleTollCalc;
-import java.sql.Date;
 import java.util.*;
 
 public class Main {
@@ -8,7 +7,7 @@ public class Main {
         TollCalculator tollCalculator = new TollCalculator();
         
         Car car = new Car();
-       // MotorBike honda = new MotorBike();
+        MotorBike honda = new MotorBike();
 
         Date[] dates = new Date[6];
         dates[0] = new Date();
@@ -23,8 +22,8 @@ public class Main {
         dates[5] = new Date(dates[1].getTime());
         dates[5].setHours(16);
         int carfee = tollCalculator.getTollFee(car, dates);
-        //int mcfee = tollCalculator.getTollFee(honda, dates);
-        System.out.println(carfee + "Kr");
-       // System.out.println(mcfee + "Kr");
+        int mcfee = tollCalculator.getTollFee(honda, dates);
+        System.out.println("jbg933 " + carfee + "Kr");
+        System.out.println("NMD358 " + mcfee + "Kr");
     }
 }
