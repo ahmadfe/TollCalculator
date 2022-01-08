@@ -3,6 +3,6 @@ package VehicleTollCalc;
 public class Car implements Vehicle {
     @Override
     public int getFee() {
-        return 10;
+        return 11;
     }
 }
